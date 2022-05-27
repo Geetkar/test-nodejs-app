@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'apache2 install' 
+           sh 'ngnix install' 
         }
      }
      
